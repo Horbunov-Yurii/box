@@ -466,7 +466,7 @@
           <div class="modal__box">
             <label class="modal__label" for="name"
               >Ім'я
-              <input type="text" class="modal__input" id="name" required />
+              <input type="text" name="lastName" class="modal__input" id="name" required />
               <svg class="modal__icon">
                 <use href="./img/symbol-defs.svg#icon-person"></use>
               </svg>
@@ -481,7 +481,8 @@
                 id="tel"
                 required
                 pattern="^(\+?38)?0\d{9}$"
-                placeholder="+380501234567" />
+                placeholder="+380501234567"
+                name="phone" />
 
               <svg class="modal__icon">
                 <use href="./img/symbol-defs.svg#icon-phone"></use>
@@ -491,7 +492,7 @@
           <div class="modal__box">
             <label class="modal__label" for="post"
               >Пошта
-              <input type="email" class="modal__input" id="post" required />
+              <input type="email" name="email" class="modal__input" id="post" required />
 
               <svg class="modal__icon">
                 <use href="./img/symbol-defs.svg#icon-email"></use>
@@ -509,7 +510,7 @@
           </label>
           <div class="modal__wrap">
             <label class="modal__checked" for="check">
-              <input type="checkbox" class="modal__check" id="check" required />
+              <input type="checkbox" name="check" class="modal__check" id="check" required />
               <span class="modal__span">Погоджуюся з розсилкою та приймаю</span>
             </label>
             <a href="/" class="modal__link"> Умови договору</a>
